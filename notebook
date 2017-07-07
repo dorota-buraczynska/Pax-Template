@@ -1,0 +1,39 @@
+text color #0149a1 roboto 36px bold light
+menu text color #5d6981 roboto regular 20px
+facebook #3c5a99
+twitter #28aae1
+
+h1 72px bold #0149a1
+h3 36px light #5d6981
+
+button  roboto 18px bold  #ff2d55
+second button 18px bold main color arrow #6785bb
+
+h3 table 30px bold #5d6981 p 18px light #7c8ca0
+
+third button #0149a1 18px bold white
+
+h1 72px bold white
+h3 36px light #5483bb
+p roboto 18px light
+
+forth button bg white roboto 18px bold #0149a1
+
+p roboto italic 24px #7c8ca0  18px light dot #7c8ca0
+
+h1 72px bold #0149a1
+h3 36px light #7c8ca0
+bg #edeff1
+
+h3 table 30px bold #5d6981 p 18px light #7c8ca0
+
+button  roboto 18px bold  #ff2d55
+
+p roboto 18px regular white bg #0149a1
+
+roboto 18px light footer
+
+
+-----
+
+margin 30px r columns

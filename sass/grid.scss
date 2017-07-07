@@ -1,0 +1,29 @@
+$number-of-columns: 4;
+$single-column-width: 100% / $number-of-columns;
+
+@for $i from 1 through $number-of-columns {
+  .col-#{$i} {
+    width: $single-column-width * $i;
+    float: left;
+    min-height: 1px;
+    padding: 15px;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1145px;
+  margin: 0 auto;
+  .rows {
+    &::before {
+      content: '';
+      display: table;
+      clear: both;
+    }
+    &::after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+  }
+}
