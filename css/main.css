@@ -88,3 +88,31 @@
     .nav__menu-link--twitter {
       color: #28aae1;
       border: 1px solid #28aae1; }
+
+.about-company {
+  text-align: center; }
+  .about-company__title {
+    padding-top: 120px;
+    color: #0149a1;
+    font-size: 68px;
+    font-weight: bold; }
+  .about-company__caption {
+    color: #5d6981;
+    margin-bottom: 89px;
+    font-size: 36px;
+    font-weight: 300; }
+  .about-company__price-button {
+    border: none;
+    background-color: #ff2d55;
+    color: white;
+    padding: 20px 60px;
+    margin-bottom: 105px;
+    border-radius: 28px;
+    font-size: 18px;
+    font-weight: bold; }
+  .about-company__video-wrapper {
+    background-image: url("../images/computer.png");
+    background-size: 66%;
+    background-position: 51% 0;
+    background-repeat: no-repeat;
+    padding-bottom: 144px; }

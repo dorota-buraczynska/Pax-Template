@@ -1,0 +1,42 @@
+.about-company {
+  text-align: center;
+
+  &__title {
+    padding-top: 120px;
+    color: $main-text-color;
+    font: {
+      size: 68px;
+      weight: bold;
+    }
+  }
+
+  &__caption {
+    color: $menu-text-color;
+    margin-bottom: 89px;
+    font: {
+      size: 36px;
+      weight: 300;
+    }
+  }
+
+  &__price-button {
+    border: none;
+    background-color: $button-bg-color;
+    color: white;
+    padding: 20px 60px;
+    margin-bottom: 105px;
+    border-radius: 28px;
+    font: {
+      size: 18px;
+      weight: bold;
+    }
+  }
+  
+  &__video-wrapper {
+    background-image: url("../images/computer.png");
+    background-size: 66%;
+    background-position: 51% 0;
+    background-repeat: no-repeat;
+    padding-bottom: 144px;
+  }
+}
