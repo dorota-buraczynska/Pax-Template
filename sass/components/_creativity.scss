@@ -1,0 +1,16 @@
+.creativity {
+  background-image: url("../images/creativity-bg_02.jpg");
+  background-size: cover;
+  height: 587px;
+  position: relative;
+
+  &__price-button {
+    @extend %button;
+    background-color: $main-text-color;
+    box-shadow: 0 0 27px 29px rgba(255, 255, 255, 0.94);
+    position: relative;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

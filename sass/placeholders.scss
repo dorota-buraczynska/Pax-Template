@@ -3,3 +3,16 @@
   margin: 0 auto;
   padding: 0 15px;
 }
+
+%button {
+  border: none;
+  color: white;
+  padding: 20px 60px;
+  margin-bottom: 105px;
+  border-radius: $common-border-radius;
+  outline: none;
+  font: {
+    size: 18px;
+    weight: bold;
+  }
+}

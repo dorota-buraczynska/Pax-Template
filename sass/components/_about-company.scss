@@ -21,16 +21,8 @@
   }
 
   &__price-button {
-    border: none;
+    @extend %button;
     background-color: $button-bg-color;
-    color: white;
-    padding: 20px 60px;
-    margin-bottom: 105px;
-    border-radius: $common-border-radius;
-    font: {
-      size: 18px;
-      weight: bold;
-    }
   }
 
   &__video-wrapper {

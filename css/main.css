@@ -35,6 +35,16 @@
     display: table;
     clear: both; }
 
+.about-company__price-button, .creativity__price-button {
+  border: none;
+  color: white;
+  padding: 20px 60px;
+  margin-bottom: 105px;
+  border-radius: 28px;
+  outline: none;
+  font-size: 18px;
+  font-weight: bold; }
+
 * {
   padding: 0;
   margin: 0;
@@ -103,14 +113,7 @@
     font-size: 36px;
     font-weight: 300; }
   .about-company__price-button {
-    border: none;
-    background-color: #ff2d55;
-    color: white;
-    padding: 20px 60px;
-    margin-bottom: 105px;
-    border-radius: 28px;
-    font-size: 18px;
-    font-weight: bold; }
+    background-color: #ff2d55; }
   .about-company__video-wrapper {
     background-image: url("../images/computer.png");
     background-size: 66%;
@@ -157,3 +160,16 @@
     line-height: 26px;
     font-size: 18px;
     font-weight: 300; }
+
+.creativity {
+  background-image: url("../images/creativity-bg_02.jpg");
+  background-size: cover;
+  height: 587px;
+  position: relative; }
+  .creativity__price-button {
+    background-color: #0149a1;
+    box-shadow: 0 0 27px 29px rgba(255, 255, 255, 0.94);
+    position: relative;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
