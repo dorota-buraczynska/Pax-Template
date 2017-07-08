@@ -33,6 +33,7 @@
     height: 575px;
     position: relative;
     margin-bottom: 26px;
+    margin-top: 105px;
   }
 
   &__video {
@@ -87,7 +88,7 @@
 
   &__info-text {
     color: #7c8ca0;
-    line-height: 26px;
+    line-height: $line-height;
     font: {
       size: 18px;
       weight: 300;
