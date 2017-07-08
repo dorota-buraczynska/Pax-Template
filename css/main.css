@@ -115,7 +115,6 @@
     background-color: #ff2d55; }
   .about-company__video-wrapper {
     background-image: url("../images/computer.png");
-    background-size: 66%;
     background-position: 51% 0;
     background-repeat: no-repeat;
     height: 575px;
@@ -123,11 +122,11 @@
     margin-bottom: 26px;
     margin-top: 105px; }
   .about-company__video {
-    width: 681px;
-    height: 424px;
+    width: 706px;
+    height: 444px;
     position: relative;
-    top: 37px;
-    left: 11px; }
+    top: 43px;
+    left: -17px; }
   .about-company__play-button {
     color: #0149a1;
     background-color: white;
@@ -189,6 +188,8 @@
     font-weight: 300; }
   .about-work__schema {
     padding-top: 106px; }
+  .about-work__schema-img {
+    width: 100%; }
   .about-work__info {
     padding-top: 90px;
     text-align: left;
@@ -202,3 +203,63 @@
     margin-top: 37px;
     background-color: white;
     color: #0149a1; }
+
+.slider {
+  text-align: center;
+  padding-bottom: 54px; }
+  .slider__img-wrapper {
+    padding-top: 98px;
+    padding-bottom: 21px; }
+  .slider__slide-text {
+    padding-bottom: 34px;
+    color: #7c8ca0;
+    font-size: 24px;
+    font-style: italic; }
+  .slider__slide-caption {
+    color: #7c8ca0;
+    font-size: 18px;
+    font-weight: 300; }
+  .slider__arrow {
+    text-align: left;
+    position: relative; }
+    .slider__arrow--right {
+      text-align: -webkit-right;
+      text-align: -moz-right; }
+  .slider__arrow-wrapper {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #7c8ca0;
+    border-radius: 50%;
+    position: relative; }
+    .slider__arrow-wrapper i {
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 61px;
+      font-weight: 300; }
+    .slider__arrow-wrapper--right i {
+      left: 0;
+      right: 50%;
+      transform: translate(-77%, -50%); }
+  .slider__dot {
+    margin-top: 95px;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #7c8ca0;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    cursor: pointer; }
+  .slider__dot-inside {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    .slider__dot-inside--active {
+      background-color: #7c8ca0; }

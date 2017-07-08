@@ -27,7 +27,6 @@
 
   &__video-wrapper {
     background-image: url("../images/computer.png");
-    background-size: 66%;
     background-position: 51% 0;
     background-repeat: no-repeat;
     height: 575px;
@@ -37,11 +36,11 @@
   }
 
   &__video {
-    width: 681px;
-    height: 424px;
+    width: 706px;
+    height: 444px;
     position: relative;
-    top: 37px;
-    left: 11px;
+    top: 43px;
+    left: -17px;
   }
 
   &__play-button {
