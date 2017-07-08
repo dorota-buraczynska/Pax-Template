@@ -35,12 +35,13 @@
     display: table;
     clear: both; }
 
-.about-company__price-button, .creativity__price-button, .about-work__price-button {
+.about-company__price-button, .creativity__price-button, .about-work__price-button, .team__price-button {
   border: none;
   color: white;
   padding: 20px 60px;
   border-radius: 28px;
   outline: none;
+  cursor: pointer;
   font-size: 18px;
   font-weight: bold; }
 
@@ -263,3 +264,32 @@
     transform: translate(-50%, -50%); }
     .slider__dot-inside--active {
       background-color: #7c8ca0; }
+
+.team {
+  text-align: center;
+  background-color: #edeff1;
+  padding-bottom: 118px; }
+  .team__title {
+    padding-top: 112px;
+    color: #0149a1;
+    font-size: 72px;
+    font-weight: bold; }
+  .team__caption {
+    padding-bottom: 66px;
+    color: #7c8ca0;
+    font-size: 36px;
+    font-weight: 300; }
+  .team__member-title {
+    margin-top: 31px;
+    margin-bottom: 21px;
+    color: #5d6981;
+    font-size: 30px;
+    font-weight: bold; }
+  .team__member-info {
+    color: #7c8ca0;
+    line-height: 26px;
+    font-size: 18px;
+    font-weight: 300; }
+  .team__price-button {
+    background-color: #ff2d55;
+    margin-top: 63px; }

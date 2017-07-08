@@ -1,0 +1,48 @@
+.team {
+  text-align: center;
+  background-color: #edeff1;
+  padding-bottom: 118px;
+
+  &__title {
+    padding-top: 112px;
+    color: $main-text-color;
+    font: {
+      size: 72px;
+      weight: bold;
+    }
+  }
+
+  &__caption {
+    padding-bottom: 66px;
+    color: #7c8ca0;
+    font: {
+      size: 36px;
+      weight: 300;
+    }
+  }
+
+  &__member-title {
+    margin-top: 31px;
+    margin-bottom: 21px;
+    color: $menu-text-color;
+    font: {
+      size: 30px;
+      weight: bold;
+    }
+  }
+
+  &__member-info {
+    color: #7c8ca0;
+    line-height: $line-height;
+    font: {
+      size: 18px;
+      weight: 300;
+    }
+  }
+
+  &__price-button {
+    @extend %button;
+    background-color: $button-bg-color;
+    margin-top: 63px;
+  }
+}
