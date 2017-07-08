@@ -90,7 +90,8 @@
       border: 1px solid #28aae1; }
 
 .about-company {
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 85px; }
   .about-company__title {
     padding-top: 120px;
     color: #0149a1;
@@ -115,4 +116,44 @@
     background-size: 66%;
     background-position: 51% 0;
     background-repeat: no-repeat;
-    padding-bottom: 144px; }
+    height: 575px;
+    position: relative;
+    margin-bottom: 26px; }
+  .about-company__video {
+    width: 681px;
+    height: 424px;
+    position: relative;
+    top: 37px;
+    left: 11px; }
+  .about-company__play-button {
+    color: #0149a1;
+    background-color: white;
+    border: none;
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 14px 27px;
+    border-radius: 28px;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold; }
+  .about-company__play-button-text, .about-company__play-button-img {
+    display: inline-block;
+    vertical-align: middle; }
+  .about-company__play-button-text {
+    padding-right: 18px; }
+  .about-company__info-img {
+    height: 93px; }
+  .about-company__info-title {
+    margin-top: 39px;
+    margin-bottom: 17px;
+    color: #5d6981;
+    font-size: 30px;
+    font-weight: bold; }
+  .about-company__info-text {
+    color: #7c8ca0;
+    line-height: 26px;
+    font-size: 18px;
+    font-weight: 300; }

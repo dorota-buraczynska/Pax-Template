@@ -1,5 +1,6 @@
 .about-company {
   text-align: center;
+  padding-bottom: 85px;
 
   &__title {
     padding-top: 120px;
@@ -25,18 +26,79 @@
     color: white;
     padding: 20px 60px;
     margin-bottom: 105px;
-    border-radius: 28px;
+    border-radius: $common-border-radius;
     font: {
       size: 18px;
       weight: bold;
     }
   }
-  
+
   &__video-wrapper {
     background-image: url("../images/computer.png");
     background-size: 66%;
     background-position: 51% 0;
     background-repeat: no-repeat;
-    padding-bottom: 144px;
+    height: 575px;
+    position: relative;
+    margin-bottom: 26px;
+  }
+
+  &__video {
+    width: 681px;
+    height: 424px;
+    position: relative;
+    top: 37px;
+    left: 11px;
+  }
+
+  &__play-button {
+    color: $main-text-color;
+    background-color: white;
+    border: none;
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 14px 27px;
+    border-radius: $common-border-radius;
+    outline: none;
+    cursor: pointer;
+    font: {
+      size: 18px;
+      weight: bold;
+    }
+  }
+
+  &__play-button-text,
+  &__play-button-img {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  &__play-button-text {
+    padding-right: 18px;
+  }
+
+  &__info-img {
+    height: 93px;
+  }
+
+  &__info-title {
+    margin-top: 39px;
+    margin-bottom: 17px;
+    color: $menu-text-color;
+    font: {
+      size: 30px;
+      weight: bold;
+    }
+  }
+
+  &__info-text {
+    color: #7c8ca0;
+    line-height: 26px;
+    font: {
+      size: 18px;
+      weight: 300;
+    }
   }
 }
