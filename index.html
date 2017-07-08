@@ -93,7 +93,12 @@
     <div class="container">
         <div class="rows">
             <div class="slider__img-wrapper col-4">
+                <img class="slider__img slider__img--active" src="images/person1.png" alt="photo of face">
+                <img class="slider__img" src="images/person2.png" alt="photo of face">
+                <img class="slider__img" src="images/person3.png" alt="photo of face">
+                <img class="slider__img" src="images/person4.png" alt="photo of face">
                 <img class="slider__img" src="images/person1.png" alt="photo of face">
+                <img class="slider__img" src="images/person2.png" alt="photo of face">
             </div>
         </div>
         <div class="rows">
@@ -108,12 +113,24 @@
                     <div class="slider__slide-caption">Jan Kowalski from widu.org</div>
                 </div>
                 <div class="slider__dots">
-                    <div class="slider__dot"><div class="slider__dot-inside"></div></div>
-                    <div class="slider__dot"><div class="slider__dot-inside"></div></div>
-                    <div class="slider__dot"><div class="slider__dot-inside slider__dot-inside--active"></div></div>
-                    <div class="slider__dot"><div class="slider__dot-inside"></div></div>
-                    <div class="slider__dot"><div class="slider__dot-inside"></div></div>
-                    <div class="slider__dot"><div class="slider__dot-inside"></div></div>
+                    <div class="slider__dot">
+                        <div class="slider__dot-inside"></div>
+                    </div>
+                    <div class="slider__dot">
+                        <div class="slider__dot-inside"></div>
+                    </div>
+                    <div class="slider__dot">
+                        <div class="slider__dot-inside slider__dot-inside--active"></div>
+                    </div>
+                    <div class="slider__dot">
+                        <div class="slider__dot-inside"></div>
+                    </div>
+                    <div class="slider__dot">
+                        <div class="slider__dot-inside"></div>
+                    </div>
+                    <div class="slider__dot">
+                        <div class="slider__dot-inside"></div>
+                    </div>
                 </div>
             </div>
             <div class="slider__arrow slider__arrow--right col-1">
@@ -154,5 +171,36 @@
     </div>
     <button class="team__price-button">Ask for price</button>
 </section>
+
+<section class="map">
+    <div id="map"></div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="rows">
+            <div class="footer__info col-1">
+                <p class="footer__info-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dolorem explicabo fugiat quas quisquam totam!</p>
+            </div>
+            <div class="footer__info col-1">
+                <p class="footer__info-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dolorem explicabo fugiat quas quisquam totam!</p>
+            </div>
+            <div class="footer__info col-1">
+                <p class="footer__info-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dolorem explicabo fugiat quas quisquam totam!</p>
+            </div>
+            <div class="footer__info col-1">
+                <p class="footer__info-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dolorem explicabo fugiat quas quisquam totam!</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer__caption">
+        <p class="footer__caption-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, laboriosam, sequi!</p>
+        <p class="footer__caption-text">Try awesome tool for designers <strong>symu.co</strong></p>
+    </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="script/script.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZzyUpnaDI3xoPGCILVgEeKH6kyP2hac4&callback=initMap"></script>
 </body>
 </html>

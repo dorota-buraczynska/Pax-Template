@@ -44,7 +44,7 @@
       height: 45px;
       position: relative;
       padding: 0;
-      margin-top: 0;
+      margin-top: 10px;
       top: -8px;
 
       & i {
@@ -66,6 +66,7 @@
     &--twitter {
       color: $twitter-icon-color;
       border: 1px solid $twitter-icon-color;
+      margin-right: 10px;
     }
   }
 

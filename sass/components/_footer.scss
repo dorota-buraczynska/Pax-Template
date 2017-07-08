@@ -1,0 +1,30 @@
+.footer {
+  text-align: center;
+  background-color: $main-text-color;
+  padding-bottom: 121px;
+
+  &__info {
+    text-align: center;
+  }
+
+  &__info-text {
+    margin-top: 64px;
+    padding: 0 71px;
+    line-height: $line-height*1.2;
+    text-align: left;
+    color: white;
+    font: {
+      size: 18px;
+    }
+  }
+
+  &__caption {
+    margin-top: 123px;
+    color: white;
+    font: {
+      size: 18px;
+      weight: 300;
+    }
+  }
+
+}
