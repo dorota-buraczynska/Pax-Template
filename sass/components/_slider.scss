@@ -18,6 +18,21 @@
     }
   }
 
+  &__slide {
+    position: relative;
+    margin-top: 18px;
+  }
+
+  &__slide-content {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+
+    &--active {
+      opacity: 1;
+    }
+  }
+
   &__slide-text {
     padding-bottom: 34px;
     color: #7c8ca0;
@@ -51,6 +66,7 @@
     border: 1px solid #7c8ca0;
     border-radius: 50%;
     position: relative;
+    cursor: pointer;
 
     & i {
       position: relative;
@@ -72,8 +88,11 @@
     }
   }
 
+  &__dots {
+    margin-top: 219px;
+  }
+
   &__dot {
-    margin-top: 95px;
     margin-right: 5px;
     width: 20px;
     height: 20px;
