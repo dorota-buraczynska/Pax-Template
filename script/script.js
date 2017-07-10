@@ -12,7 +12,7 @@ function initMap() {
     var marker = new google.maps.Marker({
         position: position,
         map: map,
-        icon: './images/bulb.png'
+        icon: './images/marker.png'
     });
 }
 
