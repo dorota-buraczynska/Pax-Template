@@ -88,3 +88,4 @@ $('.slider__arrow-wrapper--right').on('click', function () {
     slideShow();
 });
 
+console.log('test');
