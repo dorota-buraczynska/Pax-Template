@@ -87,5 +87,3 @@ $('.slider__arrow-wrapper--right').on('click', function () {
     changeActiveQuotation(currentIndex);
     slideShow();
 });
-
-console.log('test');
